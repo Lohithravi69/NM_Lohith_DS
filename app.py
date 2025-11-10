@@ -87,6 +87,7 @@ def index():
             # Add fraud predictions to the transactions
             X = merchant_transactions.drop(['IsFraud'], axis=1)
             predictions = model.predict(preprocessor.transform(X))
+            merchant_transactions = merchant_transactions.copy()
             merchant_transactions['FraudStatus'] = ['Fraud' if pred == 1 else 'No Fraud' for pred in predictions]
 
             # Save the filtered transactions to display on the next page

@@ -23,3 +23,22 @@
 2025-11-10 22:24:53,604 - INFO - 127.0.0.1 - - [10/Nov/2025 22:24:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 2025-11-10 22:25:16,532 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
 2025-11-10 22:25:16,864 - INFO -  * Restarting with stat
+2025-11-10 22:25:19,648 - WARNING -  * Debugger is active!
+2025-11-10 22:25:19,652 - INFO -  * Debugger PIN: 139-057-469
+2025-11-10 22:25:29,137 - INFO - 127.0.0.1 - - [10/Nov/2025 22:25:29] "GET / HTTP/1.1" 200 -
+2025-11-10 22:25:29,378 - INFO - 127.0.0.1 - - [10/Nov/2025 22:25:29] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+2025-11-10 22:25:29,439 - INFO - 127.0.0.1 - - [10/Nov/2025 22:25:29] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+2025-11-10 22:25:29,469 - INFO - 127.0.0.1 - - [10/Nov/2025 22:25:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-10 22:25:48,175 - INFO - 127.0.0.1 - - [10/Nov/2025 22:25:48] "GET /insights HTTP/1.1" 200 -
+2025-11-10 22:26:17,035 - INFO - 127.0.0.1 - - [10/Nov/2025 22:26:17] "GET /api/live_feed HTTP/1.1" 200 -
+2025-11-10 22:26:27,581 - INFO - 127.0.0.1 - - [10/Nov/2025 22:26:27] "GET / HTTP/1.1" 200 -
+2025-11-10 22:26:51,903 - INFO - 127.0.0.1 - - [10/Nov/2025 22:26:51] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-10 22:26:51,944 - INFO - 127.0.0.1 - - [10/Nov/2025 22:26:51] "GET /transactions?merchant_id=999 HTTP/1.1" 200 -
+2025-11-10 22:27:03,379 - INFO - 127.0.0.1 - - [10/Nov/2025 22:27:03] "GET /transactions?merchant_id=999 HTTP/1.1" 200 -
+2025-11-10 22:27:17,369 - INFO - 127.0.0.1 - - [10/Nov/2025 22:27:17] "GET /insights HTTP/1.1" 200 -
+2025-11-10 22:27:35,173 - INFO - 127.0.0.1 - - [10/Nov/2025 22:27:35] "GET /live HTTP/1.1" 200 -
+2025-11-10 22:27:46,830 - INFO - 127.0.0.1 - - [10/Nov/2025 22:27:46] "GET /admin HTTP/1.1" 200 -
+2025-11-10 22:27:56,017 - INFO - 127.0.0.1 - - [10/Nov/2025 22:27:56] "[33mGET /transaction_details?transaction_id=1 HTTP/1.1[0m" 404 -
+2025-11-10 22:28:07,713 - INFO - 127.0.0.1 - - [10/Nov/2025 22:28:07] "GET /fraud_transactions?merchant_id=999 HTTP/1.1" 200 -
+2025-11-10 22:28:42,208 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-10 22:28:42,553 - INFO -  * Restarting with stat

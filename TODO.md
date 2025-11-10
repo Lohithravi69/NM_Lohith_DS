@@ -27,5 +27,8 @@
 
 ## Step 5: Testing and optimization
 - [x] Test app locally.
-- Optimize code for efficiency (caching, etc.).
-- Verify UI/UX and features.
+- [x] Optimize code for efficiency (caching, etc.).
+- [x] Verify UI/UX and features.
+- [x] Fix template folder configuration.
+- [x] Test all routes and API endpoints.
+- [x] Address pandas warning for setting with copy.
