@@ -1,0 +1,25 @@
+2025-11-10 19:43:33,955 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-10 19:43:33,956 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-10 19:43:33,959 - INFO -  * Restarting with stat
+2025-11-10 19:43:36,825 - WARNING -  * Debugger is active!
+2025-11-10 19:43:36,849 - INFO -  * Debugger PIN: 126-212-659
+2025-11-10 22:24:36,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-10 22:24:36,434 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-10 22:24:36,438 - INFO -  * Restarting with stat
+2025-11-10 22:24:39,239 - WARNING -  * Debugger is active!
+2025-11-10 22:24:39,243 - INFO -  * Debugger PIN: 139-057-469
+2025-11-10 22:24:42,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-10 22:24:42,615 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-10 22:24:42,617 - INFO -  * Restarting with stat
+2025-11-10 22:24:45,592 - WARNING -  * Debugger is active!
+2025-11-10 22:24:45,600 - INFO -  * Debugger PIN: 126-212-659
+2025-11-10 22:24:52,628 - INFO - 127.0.0.1 - - [10/Nov/2025 22:24:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-10 22:24:53,320 - INFO - 127.0.0.1 - - [10/Nov/2025 22:24:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-10 22:24:53,425 - INFO - 127.0.0.1 - - [10/Nov/2025 22:24:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-10 22:24:53,591 - INFO - 127.0.0.1 - - [10/Nov/2025 22:24:53] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=sMv45afiHrrpqChrSxzw HTTP/1.1" 200 -
+2025-11-10 22:24:53,604 - INFO - 127.0.0.1 - - [10/Nov/2025 22:24:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-10 22:25:16,532 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-10 22:25:16,864 - INFO -  * Restarting with stat

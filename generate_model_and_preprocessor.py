@@ -6,9 +6,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import joblib
 
-# Load the updated dataset
-dataset_path = r'c:\Users\lohit\Documents\gproject\flask-app\credit_card_fraud_dataset_updated.csv'
-df = pd.read_csv(dataset_path)
+# Load the updated dataset (using subset for quick testing)
+dataset_path = 'credit_card_fraud_dataset.csv'
+df = pd.read_csv(dataset_path).head(5000)  # Use first 5000 rows for faster training
 
 # Preprocess the data
 X = df[['Amount', 'TransactionType', 'Location']]
@@ -35,8 +35,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 pipeline.fit(X_train, y_train)
 
 # Save the model and preprocessor
-model_path = r'c:\Users\lohit\Documents\gproject\flask-app\model.pkl'
-preprocessor_path = r'c:\Users\lohit\Documents\gproject\flask-app\preprocessor.pkl'
+model_path = 'model.pkl'
+preprocessor_path = 'preprocessor.pkl'
 joblib.dump(pipeline.named_steps['classifier'], model_path)
 joblib.dump((preprocessor, X.columns.tolist()), preprocessor_path)
 

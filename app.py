@@ -1,16 +1,21 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, session, jsonify
 import joblib
 import pandas as pd
 import logging
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from functools import lru_cache
+import random
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='Html')
+app.secret_key = 'your_secret_key_here'  # Change this to a secure key in production
+app.config['TEMPLATES_FOLDER'] = 'Html'  # Set custom templates folder
 
 # Paths to the updated model, preprocessor, and dataset
-model_path = r'c:\Users\lohit\Documents\gproject\flask-app\model.pkl'
-preprocessor_path = r'c:\Users\lohit\Documents\gproject\flask-app\preprocessor.pkl'
-dataset_path = r'c:\Users\lohit\Documents\gproject\flask-app\credit_card_fraud_dataset_updated.csv'
+model_path = 'model.pkl'
+preprocessor_path = 'preprocessor.pkl'
+dataset_path = 'credit_card_fraud_dataset.csv'
 
 # Load the updated model and preprocessor
 model = joblib.load(model_path)
@@ -119,24 +124,60 @@ def result():
     prediction = request.args.get('prediction', 'No result available')
     return render_template('result.html', prediction=prediction)
 
+@lru_cache(maxsize=None)
+def get_fraud_ratio():
+    fraud_count = df['IsFraud'].sum()
+    total_count = len(df)
+    return fraud_count / total_count if total_count > 0 else 0
+
+@lru_cache(maxsize=None)
+def get_feature_importance():
+    if hasattr(model, 'feature_importances_'):
+        importance_dict = dict(zip(feature_names, model.feature_importances_))
+        # Sort by importance and take top 10
+        sorted_importance = sorted(importance_dict.items(), key=lambda x: x[1], reverse=True)[:10]
+        return dict(sorted_importance)
+    else:
+        # Fallback if no feature importances
+        return {col: 1.0 / len(feature_names) for col in feature_names[:10]}
+
 @app.route('/insights')
 def insights():
     """
     Route to display model insights.
     """
-    fraud_ratio = 0.2  # Replace with actual calculation
-    feature_importance = {'Amount': 0.5, 'TransactionType': 0.3, 'Location': 0.2}  # Replace with actual data
+    fraud_ratio = get_fraud_ratio()
+    feature_importance = get_feature_importance()
     return render_template('insights.html', fraud_ratio=fraud_ratio, feature_importance=feature_importance)
+
+@app.route('/api/live_feed')
+def api_live_feed():
+    """
+    API endpoint for live fraud detection feed.
+    """
+    # Simulate live data by randomly selecting transactions
+    sample_size = min(10, len(df))
+    sample_transactions = df.sample(n=sample_size, random_state=random.randint(0, 1000))
+    
+    live_feed = []
+    for _, row in sample_transactions.iterrows():
+        transaction_data = row.drop('IsFraud').to_dict()
+        prediction = model.predict(preprocessor.transform(pd.DataFrame([transaction_data])))[0]
+        result = 'Fraud Detected' if prediction == 1 else 'No Fraud Detected'
+        live_feed.append({
+            'TransactionID': int(row['TransactionID']),
+            'Amount': float(row['Amount']),
+            'Result': result
+        })
+    
+    return jsonify(live_feed)
 
 @app.route('/live')
 def live_detection():
     """
     Route to display live detection feed.
     """
-    live_feed = [
-        {'TransactionID': 1001, 'Amount': 5000, 'Result': 'No Fraud Detected'},
-        {'TransactionID': 1002, 'Amount': 15000, 'Result': 'Fraud Detected'}
-    ]
+    live_feed = []  # Initial empty feed, will be populated via AJAX
     return render_template('live.html', live_feed=live_feed)
 
 @app.route('/admin', methods=['GET', 'POST'])
