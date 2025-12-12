@@ -32,3 +32,7 @@
 - [x] Fix template folder configuration.
 - [x] Test all routes and API endpoints.
 - [x] Address pandas warning for setting with copy.
+
+## Step 6: Finalize and commit changes
+- [x] Commit all changes to repository.
+- [x] Update log files if necessary.

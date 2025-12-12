@@ -44,3 +44,351 @@
 2025-11-10 22:28:42,553 - INFO -  * Restarting with stat
 2025-11-10 22:28:45,488 - WARNING -  * Debugger is active!
 2025-11-10 22:28:45,492 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 18:26:39,321 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 18:26:39,322 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 18:26:39,327 - INFO -  * Restarting with stat
+2025-11-11 18:26:43,103 - WARNING -  * Debugger is active!
+2025-11-11 18:26:43,109 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 18:28:43,173 - INFO - 127.0.0.1 - - [11/Nov/2025 18:28:43] "GET / HTTP/1.1" 200 -
+2025-11-11 18:28:43,341 - INFO - 127.0.0.1 - - [11/Nov/2025 18:28:43] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 18:28:43,441 - INFO - 127.0.0.1 - - [11/Nov/2025 18:28:43] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 18:28:43,457 - INFO - 127.0.0.1 - - [11/Nov/2025 18:28:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 18:29:06,725 - INFO - 127.0.0.1 - - [11/Nov/2025 18:29:06] "POST / HTTP/1.1" 200 -
+2025-11-11 18:29:06,764 - INFO - 127.0.0.1 - - [11/Nov/2025 18:29:06] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 18:29:06,768 - INFO - 127.0.0.1 - - [11/Nov/2025 18:29:06] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 18:29:47,321 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 18:29:47,735 - INFO -  * Restarting with stat
+2025-11-11 18:29:50,937 - WARNING -  * Debugger is active!
+2025-11-11 18:29:50,940 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 18:29:59,966 - INFO - 127.0.0.1 - - [11/Nov/2025 18:29:59] "POST / HTTP/1.1" 200 -
+2025-11-11 18:30:00,115 - INFO - 127.0.0.1 - - [11/Nov/2025 18:30:00] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 18:30:00,116 - INFO - 127.0.0.1 - - [11/Nov/2025 18:30:00] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 18:30:03,361 - INFO - 127.0.0.1 - - [11/Nov/2025 18:30:03] "POST / HTTP/1.1" 200 -
+2025-11-11 18:30:03,404 - INFO - 127.0.0.1 - - [11/Nov/2025 18:30:03] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+2025-11-11 18:30:03,404 - INFO - 127.0.0.1 - - [11/Nov/2025 18:30:03] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+2025-11-11 18:30:03,431 - INFO - 127.0.0.1 - - [11/Nov/2025 18:30:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 18:42:18,423 - INFO - 127.0.0.1 - - [11/Nov/2025 18:42:18] "POST / HTTP/1.1" 200 -
+2025-11-11 18:42:18,471 - INFO - 127.0.0.1 - - [11/Nov/2025 18:42:18] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 18:42:18,472 - INFO - 127.0.0.1 - - [11/Nov/2025 18:42:18] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 18:42:20,370 - INFO - 127.0.0.1 - - [11/Nov/2025 18:42:20] "GET /signup HTTP/1.1" 200 -
+2025-11-11 18:42:48,334 - INFO - 127.0.0.1 - - [11/Nov/2025 18:42:48] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:11:22,378 - ERROR - Input Error: MerchantID is required and must be a number.
+2025-11-11 19:11:22,388 - INFO - 127.0.0.1 - - [11/Nov/2025 19:11:22] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:11:22,558 - INFO - 127.0.0.1 - - [11/Nov/2025 19:11:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 19:11:40,414 - ERROR - Input Error: MerchantID is required and must be a number.
+2025-11-11 19:11:40,415 - INFO - 127.0.0.1 - - [11/Nov/2025 19:11:40] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:11:40,944 - INFO - 127.0.0.1 - - [11/Nov/2025 19:11:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 19:12:41,171 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:12:41,730 - INFO -  * Restarting with stat
+2025-11-11 19:12:44,936 - WARNING -  * Debugger is active!
+2025-11-11 19:12:44,941 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:13:26,915 - ERROR - Input Error: MerchantID is required.
+2025-11-11 19:13:26,927 - INFO - 127.0.0.1 - - [11/Nov/2025 19:13:26] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:14:12,420 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:14:12,851 - INFO -  * Restarting with stat
+2025-11-11 19:14:16,520 - WARNING -  * Debugger is active!
+2025-11-11 19:14:16,525 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:15:36,842 - ERROR - Input Error: MerchantID must be at least 6 characters long and contain letters, numbers, and at least one special character (!@#$%^&*).
+2025-11-11 19:15:36,852 - INFO - 127.0.0.1 - - [11/Nov/2025 19:15:36] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:15:54,805 - ERROR - Input Error: MerchantID must be at least 6 characters long and contain letters, numbers, and at least one special character (!@#$%^&*).
+2025-11-11 19:15:54,807 - INFO - 127.0.0.1 - - [11/Nov/2025 19:15:54] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:17:15,626 - ERROR - Input Error: invalid literal for int() with base 10: 'ABC123!'
+2025-11-11 19:17:15,627 - INFO - 127.0.0.1 - - [11/Nov/2025 19:17:15] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:17:51,178 - ERROR - Input Error: invalid literal for int() with base 10: 'Loh123@'
+2025-11-11 19:17:51,179 - INFO - 127.0.0.1 - - [11/Nov/2025 19:17:51] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:18:41,014 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\models.py', reloading
+2025-11-11 19:18:41,374 - INFO -  * Restarting with stat
+2025-11-11 19:18:44,660 - WARNING -  * Debugger is active!
+2025-11-11 19:18:44,663 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:19:19,332 - ERROR - Input Error: Passwords do not match.
+2025-11-11 19:19:19,346 - INFO - 127.0.0.1 - - [11/Nov/2025 19:19:19] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:19:33,640 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:19:34,087 - INFO -  * Restarting with stat
+2025-11-11 19:19:38,006 - WARNING -  * Debugger is active!
+2025-11-11 19:19:38,011 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:19:44,147 - INFO - 127.0.0.1 - - [11/Nov/2025 19:19:44] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-11-11 19:19:44,158 - INFO - 127.0.0.1 - - [11/Nov/2025 19:19:44] "GET / HTTP/1.1" 200 -
+2025-11-11 19:19:44,297 - INFO - 127.0.0.1 - - [11/Nov/2025 19:19:44] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 19:19:44,302 - INFO - 127.0.0.1 - - [11/Nov/2025 19:19:44] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 19:20:09,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 19:20:09,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 19:20:09,396 - INFO -  * Restarting with stat
+2025-11-11 19:20:13,232 - WARNING -  * Debugger is active!
+2025-11-11 19:20:13,237 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:22:34,206 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:22:34,684 - INFO -  * Restarting with stat
+2025-11-11 19:22:34,764 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:22:35,201 - INFO -  * Restarting with stat
+2025-11-11 19:22:38,633 - WARNING -  * Debugger is active!
+2025-11-11 19:22:38,641 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:22:39,064 - WARNING -  * Debugger is active!
+2025-11-11 19:22:39,068 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:22:49,680 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:22:50,151 - INFO -  * Restarting with stat
+2025-11-11 19:22:50,338 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:22:50,777 - INFO -  * Restarting with stat
+2025-11-11 19:22:54,176 - WARNING -  * Debugger is active!
+2025-11-11 19:22:54,181 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:22:54,892 - WARNING -  * Debugger is active!
+2025-11-11 19:22:54,897 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:23:37,806 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:23:38,061 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:23:38,319 - INFO -  * Restarting with stat
+2025-11-11 19:23:38,610 - INFO -  * Restarting with stat
+2025-11-11 19:23:42,183 - WARNING -  * Debugger is active!
+2025-11-11 19:23:42,187 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:23:42,363 - WARNING -  * Debugger is active!
+2025-11-11 19:23:42,368 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:24:30,429 - INFO - 127.0.0.1 - - [11/Nov/2025 19:24:30] "GET / HTTP/1.1" 200 -
+2025-11-11 19:24:30,569 - INFO - 127.0.0.1 - - [11/Nov/2025 19:24:30] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 19:24:30,572 - INFO - 127.0.0.1 - - [11/Nov/2025 19:24:30] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 19:25:06,485 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:25:06,864 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 19:25:07,015 - INFO -  * Restarting with stat
+2025-11-11 19:25:07,311 - INFO -  * Restarting with stat
+2025-11-11 19:25:11,039 - WARNING -  * Debugger is active!
+2025-11-11 19:25:11,043 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:25:11,145 - WARNING -  * Debugger is active!
+2025-11-11 19:25:11,150 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 19:25:53,782 - INFO - 127.0.0.1 - - [11/Nov/2025 19:25:53] "GET / HTTP/1.1" 200 -
+2025-11-11 19:25:53,917 - INFO - 127.0.0.1 - - [11/Nov/2025 19:25:53] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 19:25:53,924 - INFO - 127.0.0.1 - - [11/Nov/2025 19:25:53] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 19:26:01,241 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:01] "GET / HTTP/1.1" 200 -
+2025-11-11 19:26:01,295 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:01] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+2025-11-11 19:26:01,295 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:01] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+2025-11-11 19:26:01,445 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 19:26:04,292 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:04] "GET / HTTP/1.1" 200 -
+2025-11-11 19:26:04,338 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:04] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 19:26:04,338 - INFO - 127.0.0.1 - - [11/Nov/2025 19:26:04] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 19:27:26,698 - ERROR - Exception Occurred: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-11 19:27:26,706 - INFO - 127.0.0.1 - - [11/Nov/2025 19:27:26] "POST /signup HTTP/1.1" 200 -
+2025-11-11 19:27:45,499 - ERROR - Exception Occurred: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-11 19:27:45,500 - INFO - 127.0.0.1 - - [11/Nov/2025 19:27:45] "POST / HTTP/1.1" 200 -
+2025-11-11 19:27:59,467 - INFO - 127.0.0.1 - - [11/Nov/2025 19:27:59] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-11 19:27:59,513 - INFO - 127.0.0.1 - - [11/Nov/2025 19:27:59] "GET / HTTP/1.1" 200 -
+2025-11-11 19:28:34,485 - ERROR - Exception Occurred: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-11 19:28:34,486 - INFO - 127.0.0.1 - - [11/Nov/2025 19:28:34] "POST / HTTP/1.1" 200 -
+2025-11-11 19:28:48,528 - INFO - 127.0.0.1 - - [11/Nov/2025 19:28:48] "GET /api/live_feed HTTP/1.1" 200 -
+2025-11-11 19:28:59,918 - INFO - 127.0.0.1 - - [11/Nov/2025 19:28:59] "GET /insights HTTP/1.1" 200 -
+2025-11-11 19:29:12,527 - INFO - 127.0.0.1 - - [11/Nov/2025 19:29:12] "GET /live HTTP/1.1" 200 -
+2025-11-11 19:29:25,303 - INFO - 127.0.0.1 - - [11/Nov/2025 19:29:25] "GET /admin HTTP/1.1" 200 -
+2025-11-11 19:29:38,036 - INFO - 127.0.0.1 - - [11/Nov/2025 19:29:38] "[32mGET /transactions HTTP/1.1[0m" 302 -
+2025-11-11 19:29:38,039 - INFO - 127.0.0.1 - - [11/Nov/2025 19:29:38] "GET / HTTP/1.1" 200 -
+2025-11-11 19:29:49,193 - INFO - 127.0.0.1 - - [11/Nov/2025 19:29:49] "[32mGET /fraud_transactions HTTP/1.1[0m" 302 -
+2025-11-11 19:29:49,197 - INFO - 127.0.0.1 - - [11/Nov/2025 19:29:49] "GET / HTTP/1.1" 200 -
+2025-11-11 19:30:02,894 - INFO - 127.0.0.1 - - [11/Nov/2025 19:30:02] "[32mGET /transaction_details?transaction_id=1 HTTP/1.1[0m" 302 -
+2025-11-11 19:30:02,898 - INFO - 127.0.0.1 - - [11/Nov/2025 19:30:02] "GET / HTTP/1.1" 200 -
+2025-11-11 19:30:14,980 - INFO - 127.0.0.1 - - [11/Nov/2025 19:30:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-11 19:30:14,984 - INFO - 127.0.0.1 - - [11/Nov/2025 19:30:14] "GET / HTTP/1.1" 200 -
+2025-11-11 20:47:53,843 - INFO - 127.0.0.1 - - [11/Nov/2025 20:47:53] "POST / HTTP/1.1" 200 -
+2025-11-11 20:48:13,855 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-11 20:48:13,859 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:13] "GET / HTTP/1.1" 200 -
+2025-11-11 20:48:32,565 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:32] "POST /signup HTTP/1.1" 200 -
+2025-11-11 20:48:53,321 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:53] "GET / HTTP/1.1" 200 -
+2025-11-11 20:48:53,360 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:53] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:48:53,361 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:53] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 20:48:55,584 - INFO - 127.0.0.1 - - [11/Nov/2025 20:48:55] "POST /signup HTTP/1.1" 200 -
+2025-11-11 20:49:09,074 - INFO - 127.0.0.1 - - [11/Nov/2025 20:49:09] "POST / HTTP/1.1" 200 -
+2025-11-11 20:49:22,767 - INFO - 127.0.0.1 - - [11/Nov/2025 20:49:22] "POST / HTTP/1.1" 200 -
+2025-11-11 20:49:36,129 - INFO - 127.0.0.1 - - [11/Nov/2025 20:49:36] "POST / HTTP/1.1" 200 -
+2025-11-11 20:49:50,515 - INFO - 127.0.0.1 - - [11/Nov/2025 20:49:50] "POST / HTTP/1.1" 200 -
+2025-11-11 20:50:05,226 - INFO - 127.0.0.1 - - [11/Nov/2025 20:50:05] "POST / HTTP/1.1" 200 -
+2025-11-11 20:50:15,207 - INFO - 127.0.0.1 - - [11/Nov/2025 20:50:15] "POST / HTTP/1.1" 200 -
+2025-11-11 20:50:25,196 - INFO - 127.0.0.1 - - [11/Nov/2025 20:50:25] "POST / HTTP/1.1" 200 -
+2025-11-11 20:50:35,753 - INFO - 127.0.0.1 - - [11/Nov/2025 20:50:35] "POST / HTTP/1.1" 200 -
+2025-11-11 20:50:47,428 - INFO - 127.0.0.1 - - [11/Nov/2025 20:50:47] "POST / HTTP/1.1" 200 -
+2025-11-11 20:50:56,894 - INFO - 127.0.0.1 - - [11/Nov/2025 20:50:56] "POST / HTTP/1.1" 200 -
+2025-11-11 20:51:06,740 - INFO - 127.0.0.1 - - [11/Nov/2025 20:51:06] "POST / HTTP/1.1" 200 -
+2025-11-11 20:51:22,186 - INFO - 127.0.0.1 - - [11/Nov/2025 20:51:22] "POST / HTTP/1.1" 200 -
+2025-11-11 20:53:29,010 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:29] "GET / HTTP/1.1" 200 -
+2025-11-11 20:53:29,051 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:29] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:53:29,056 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:29] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 20:53:37,829 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:37] "POST / HTTP/1.1" 200 -
+2025-11-11 20:53:37,865 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:37] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 20:53:37,866 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:37] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:53:42,585 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:42] "GET /signup HTTP/1.1" 200 -
+2025-11-11 20:53:53,139 - INFO - 127.0.0.1 - - [11/Nov/2025 20:53:53] "POST / HTTP/1.1" 200 -
+2025-11-11 20:54:04,196 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:04] "GET / HTTP/1.1" 200 -
+2025-11-11 20:54:04,255 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:04] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:54:04,258 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:04] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 20:54:06,014 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:06] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-11 20:54:06,018 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:06] "GET / HTTP/1.1" 200 -
+2025-11-11 20:54:11,601 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:11] "POST / HTTP/1.1" 200 -
+2025-11-11 20:54:11,638 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:11] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:54:11,640 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:11] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 20:54:20,272 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:20] "POST /signup HTTP/1.1" 200 -
+2025-11-11 20:54:21,371 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:21] "POST / HTTP/1.1" 200 -
+2025-11-11 20:54:21,405 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:21] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:54:21,405 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:21] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 20:54:25,957 - INFO - 127.0.0.1 - - [11/Nov/2025 20:54:25] "GET /signup HTTP/1.1" 200 -
+2025-11-11 20:56:30,617 - ERROR - Input Error: MerchantID must be at least 6 characters long and contain letters, numbers, and at least one special character (!@#$%^&*).
+2025-11-11 20:56:30,618 - INFO - 127.0.0.1 - - [11/Nov/2025 20:56:30] "POST /signup HTTP/1.1" 200 -
+2025-11-11 20:58:13,533 - INFO - 127.0.0.1 - - [11/Nov/2025 20:58:13] "POST /signup HTTP/1.1" 200 -
+2025-11-11 20:58:25,755 - INFO - 127.0.0.1 - - [11/Nov/2025 20:58:25] "POST /signup HTTP/1.1" 200 -
+2025-11-11 20:58:30,852 - INFO - 127.0.0.1 - - [11/Nov/2025 20:58:30] "GET / HTTP/1.1" 200 -
+2025-11-11 20:58:30,899 - INFO - 127.0.0.1 - - [11/Nov/2025 20:58:30] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 20:58:30,904 - INFO - 127.0.0.1 - - [11/Nov/2025 20:58:30] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 21:00:43,130 - INFO - 127.0.0.1 - - [11/Nov/2025 21:00:43] "POST / HTTP/1.1" 200 -
+2025-11-11 21:00:43,167 - INFO - 127.0.0.1 - - [11/Nov/2025 21:00:43] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 21:00:43,168 - INFO - 127.0.0.1 - - [11/Nov/2025 21:00:43] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 21:01:27,622 - INFO - 127.0.0.1 - - [11/Nov/2025 21:01:27] "POST / HTTP/1.1" 200 -
+2025-11-11 21:01:27,659 - INFO - 127.0.0.1 - - [11/Nov/2025 21:01:27] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 21:01:27,659 - INFO - 127.0.0.1 - - [11/Nov/2025 21:01:27] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 21:02:07,372 - INFO - 127.0.0.1 - - [11/Nov/2025 21:02:07] "POST / HTTP/1.1" 200 -
+2025-11-11 21:02:07,413 - INFO - 127.0.0.1 - - [11/Nov/2025 21:02:07] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 21:02:07,413 - INFO - 127.0.0.1 - - [11/Nov/2025 21:02:07] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 21:02:31,035 - INFO - 127.0.0.1 - - [11/Nov/2025 21:02:31] "POST / HTTP/1.1" 200 -
+2025-11-11 21:02:31,077 - INFO - 127.0.0.1 - - [11/Nov/2025 21:02:31] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-11 21:02:31,078 - INFO - 127.0.0.1 - - [11/Nov/2025 21:02:31] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-11 21:07:23,750 - INFO - 127.0.0.1 - - [11/Nov/2025 21:07:23] "POST / HTTP/1.1" 200 -
+2025-11-11 21:07:28,638 - INFO - 127.0.0.1 - - [11/Nov/2025 21:07:28] "GET /signup HTTP/1.1" 200 -
+2025-11-11 21:07:36,115 - INFO - 127.0.0.1 - - [11/Nov/2025 21:07:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-11 21:07:36,123 - INFO - 127.0.0.1 - - [11/Nov/2025 21:07:36] "GET / HTTP/1.1" 200 -
+2025-11-11 21:07:40,622 - INFO - 127.0.0.1 - - [11/Nov/2025 21:07:40] "POST /signup HTTP/1.1" 200 -
+2025-11-11 21:08:55,153 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 21:08:55,179 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 21:08:55,712 - INFO -  * Restarting with stat
+2025-11-11 21:08:55,754 - INFO -  * Restarting with stat
+2025-11-11 21:08:58,574 - WARNING -  * Debugger is active!
+2025-11-11 21:08:58,578 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 21:08:58,615 - WARNING -  * Debugger is active!
+2025-11-11 21:08:58,619 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 21:09:48,133 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:09:48,133 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 21:09:48,135 - INFO -  * Restarting with stat
+2025-11-11 21:09:51,118 - WARNING -  * Debugger is active!
+2025-11-11 21:09:51,120 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 21:10:14,256 - INFO - 127.0.0.1 - - [11/Nov/2025 21:10:14] "POST /signup HTTP/1.1" 200 -
+2025-11-11 21:10:26,138 - INFO - 127.0.0.1 - - [11/Nov/2025 21:10:26] "POST / HTTP/1.1" 200 -
+2025-11-11 21:10:37,594 - INFO - 127.0.0.1 - - [11/Nov/2025 21:10:37] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-11 21:10:37,597 - INFO - 127.0.0.1 - - [11/Nov/2025 21:10:37] "GET / HTTP/1.1" 200 -
+2025-11-11 21:13:54,584 - INFO - 127.0.0.1 - - [11/Nov/2025 21:13:54] "POST /signup HTTP/1.1" 200 -
+2025-11-11 21:19:01,528 - INFO - 127.0.0.1 - - [11/Nov/2025 21:19:01] "POST /signup HTTP/1.1" 200 -
+2025-11-11 21:19:22,365 - INFO - 127.0.0.1 - - [11/Nov/2025 21:19:22] "POST /signup HTTP/1.1" 200 -
+2025-11-11 21:39:07,528 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 21:39:07,536 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 21:39:07,564 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\app.py', reloading
+2025-11-11 21:39:08,268 - INFO -  * Restarting with stat
+2025-11-11 21:39:08,295 - INFO -  * Restarting with stat
+2025-11-11 21:39:08,317 - INFO -  * Restarting with stat
+2025-11-11 21:39:11,692 - WARNING -  * Debugger is active!
+2025-11-11 21:39:11,695 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 21:39:30,971 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:39:30,971 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 21:39:30,974 - INFO -  * Restarting with stat
+2025-11-11 21:39:34,296 - WARNING -  * Debugger is active!
+2025-11-11 21:39:34,299 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 21:40:06,129 - ERROR - Exception Occurred: (sqlite3.OperationalError) database is locked
+[SQL: SELECT merchants.id AS merchants_id, merchants.merchant_id AS merchants_merchant_id, merchants.password AS merchants_password, merchants.created_at AS merchants_created_at 
+FROM merchants 
+WHERE merchants.merchant_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('NewMerchant123!', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-11 21:40:06,137 - INFO - 127.0.0.1 - - [11/Nov/2025 21:40:06] "POST /signup HTTP/1.1" 200 -
+2025-11-11 21:40:26,047 - ERROR - Exception Occurred: (sqlite3.OperationalError) database is locked
+[SQL: SELECT merchants.id AS merchants_id, merchants.merchant_id AS merchants_merchant_id, merchants.password AS merchants_password, merchants.created_at AS merchants_created_at 
+FROM merchants 
+WHERE merchants.merchant_id = ? AND merchants.password = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('NewMerchant123!', 'testpass', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-11 21:40:26,052 - INFO - 127.0.0.1 - - [11/Nov/2025 21:40:26] "POST / HTTP/1.1" 200 -
+2025-11-11 21:40:37,587 - INFO - 127.0.0.1 - - [11/Nov/2025 21:40:37] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-11 21:40:37,593 - INFO - 127.0.0.1 - - [11/Nov/2025 21:40:37] "GET / HTTP/1.1" 200 -
+2025-11-11 21:50:07,230 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\dump_merchants.py', reloading
+2025-11-11 21:50:07,277 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\dump_merchants.py', reloading
+2025-11-11 21:50:07,986 - INFO -  * Restarting with stat
+2025-11-11 21:50:07,986 - INFO -  * Restarting with stat
+2025-11-11 21:50:11,199 - WARNING -  * Debugger is active!
+2025-11-11 21:50:11,199 - WARNING -  * Debugger is active!
+2025-11-11 21:50:11,202 - INFO -  * Debugger PIN: 139-057-469
+2025-11-11 21:50:11,202 - INFO -  * Debugger PIN: 139-057-469
+2025-11-12 18:01:55,481 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 18:01:55,482 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-12 18:01:55,484 - INFO -  * Restarting with stat
+2025-11-12 18:01:58,957 - WARNING -  * Debugger is active!
+2025-11-12 18:01:58,963 - INFO -  * Debugger PIN: 139-057-469
+2025-11-12 18:05:16,623 - ERROR - Input Error: MerchantID is required.
+2025-11-12 18:05:16,759 - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:16] "POST /signup HTTP/1.1" 200 -
+2025-11-12 18:05:17,116 - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-13 18:30:24,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-13 18:30:24,904 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-13 18:30:24,907 - INFO -  * Restarting with stat
+2025-11-13 18:30:28,436 - WARNING -  * Debugger is active!
+2025-11-13 18:30:28,442 - INFO -  * Debugger PIN: 483-019-071
+2025-11-13 18:30:29,682 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:29] "GET / HTTP/1.1" 200 -
+2025-11-13 18:30:30,392 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:30] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-13 18:30:30,431 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:30] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-13 18:30:30,968 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-13 18:30:41,222 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:41] "POST / HTTP/1.1" 200 -
+2025-11-13 18:30:41,269 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:41] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-11-13 18:30:41,272 - INFO - 127.0.0.1 - - [13/Nov/2025 18:30:41] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-11-13 18:32:39,064 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\check_merchant.py', reloading
+2025-11-13 18:32:39,688 - INFO -  * Restarting with stat
+2025-11-13 18:32:43,098 - WARNING -  * Debugger is active!
+2025-11-13 18:32:43,102 - INFO -  * Debugger PIN: 483-019-071
+2025-11-13 18:34:12,392 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\init_db.py', reloading
+2025-11-13 18:34:12,771 - INFO -  * Restarting with stat
+2025-11-13 18:34:16,153 - WARNING -  * Debugger is active!
+2025-11-13 18:34:16,158 - INFO -  * Debugger PIN: 483-019-071
+2025-11-13 18:34:44,091 - INFO - 127.0.0.1 - - [13/Nov/2025 18:34:44] "GET / HTTP/1.1" 200 -
+2025-11-13 18:34:51,558 - INFO - 127.0.0.1 - - [13/Nov/2025 18:34:51] "GET /api/live_feed HTTP/1.1" 200 -
+2025-11-13 18:34:58,003 - INFO - 127.0.0.1 - - [13/Nov/2025 18:34:58] "GET /insights HTTP/1.1" 200 -
+2025-11-13 18:35:05,195 - INFO - 127.0.0.1 - - [13/Nov/2025 18:35:05] "GET /insights HTTP/1.1" 200 -
+2025-11-13 18:35:11,072 - INFO - 127.0.0.1 - - [13/Nov/2025 18:35:11] "GET /live HTTP/1.1" 200 -
+2025-11-13 18:35:17,254 - INFO - 127.0.0.1 - - [13/Nov/2025 18:35:17] "GET /signup HTTP/1.1" 200 -
+2025-11-13 18:35:23,145 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\init_db.py', reloading
+2025-11-13 18:35:24,045 - INFO -  * Restarting with stat
+2025-11-13 18:35:27,475 - WARNING -  * Debugger is active!
+2025-11-13 18:35:27,479 - INFO -  * Debugger PIN: 483-019-071
+2025-11-13 18:35:27,716 - INFO - 127.0.0.1 - - [13/Nov/2025 18:35:27] "GET /admin HTTP/1.1" 200 -
+2025-11-13 18:35:34,993 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\init_db.py', reloading
+2025-11-13 18:35:35,829 - INFO -  * Restarting with stat
+2025-11-13 18:35:39,225 - WARNING -  * Debugger is active!
+2025-11-13 18:35:39,229 - INFO -  * Debugger PIN: 483-019-071
+2025-11-13 18:35:51,031 - INFO - 127.0.0.1 - - [13/Nov/2025 18:35:51] "[31m[1mPOST /api/live_feed HTTP/1.1[0m" 405 -
+2025-11-13 18:36:00,896 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:00] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-13 18:36:00,945 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:00] "GET / HTTP/1.1" 200 -
+2025-11-13 18:36:06,810 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:06] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-13 18:36:06,830 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:06] "GET / HTTP/1.1" 200 -
+2025-11-13 18:36:12,676 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-11-13 18:36:12,680 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:12] "GET / HTTP/1.1" 200 -
+2025-11-13 18:36:20,202 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:20] "[32mGET /transactions HTTP/1.1[0m" 302 -
+2025-11-13 18:36:20,207 - INFO - 127.0.0.1 - - [13/Nov/2025 18:36:20] "GET / HTTP/1.1" 200 -
+2025-12-04 09:29:41,737 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-04 09:29:41,738 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-04 09:29:41,742 - INFO -  * Restarting with stat
+2025-12-04 09:29:45,372 - WARNING -  * Debugger is active!
+2025-12-04 09:29:45,376 - INFO -  * Debugger PIN: 483-019-071
+2025-12-04 09:29:48,180 - INFO - 127.0.0.1 - - [04/Dec/2025 09:29:48] "GET / HTTP/1.1" 200 -
+2025-12-04 09:29:49,018 - INFO - 127.0.0.1 - - [04/Dec/2025 09:29:49] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-04 09:29:49,083 - INFO - 127.0.0.1 - - [04/Dec/2025 09:29:49] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+2025-12-04 09:29:49,113 - INFO - 127.0.0.1 - - [04/Dec/2025 09:29:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-04 09:32:33,567 - INFO - 127.0.0.1 - - [04/Dec/2025 09:32:33] "GET / HTTP/1.1" 200 -
+2025-12-04 09:32:33,589 - INFO - 127.0.0.1 - - [04/Dec/2025 09:32:33] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-04 09:32:33,595 - INFO - 127.0.0.1 - - [04/Dec/2025 09:32:33] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-12-04 09:32:33,781 - INFO - 127.0.0.1 - - [04/Dec/2025 09:32:33] "GET / HTTP/1.1" 200 -
+2025-12-04 09:32:33,802 - INFO - 127.0.0.1 - - [04/Dec/2025 09:32:33] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-04 09:32:33,803 - INFO - 127.0.0.1 - - [04/Dec/2025 09:32:33] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-12-04 09:33:20,571 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\create_sample_merchant.py', reloading
+2025-12-04 09:33:21,050 - INFO -  * Restarting with stat
+2025-12-04 09:33:24,349 - WARNING -  * Debugger is active!
+2025-12-04 09:33:24,353 - INFO -  * Debugger PIN: 483-019-071
+2025-12-04 09:36:31,006 - INFO - 127.0.0.1 - - [04/Dec/2025 09:36:31] "POST / HTTP/1.1" 200 -
+2025-12-04 09:36:31,131 - INFO - 127.0.0.1 - - [04/Dec/2025 09:36:31] "[36mGET /static/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-12-04 09:36:31,132 - INFO - 127.0.0.1 - - [04/Dec/2025 09:36:31] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-04 09:45:47,400 - INFO -  * Detected change in 'C:\\github-repo\\NM_Lohith_DS\\scripts\\dump_merchants.py', reloading
+2025-12-04 09:45:47,763 - INFO -  * Restarting with stat
+2025-12-04 09:45:51,031 - WARNING -  * Debugger is active!
+2025-12-04 09:45:51,035 - INFO -  * Debugger PIN: 483-019-071
