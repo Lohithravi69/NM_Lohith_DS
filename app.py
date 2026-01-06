@@ -13,7 +13,8 @@ from models import db, Merchant, Transaction, FraudLog
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__, template_folder='Html')
-app.secret_key = 'your_secret_key_here'  # Change this to a secure key in production
+# Use environment variable for secret key, fallback to default for development
+app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app.config['TEMPLATES_FOLDER'] = 'Html'  # Set custom templates folder
